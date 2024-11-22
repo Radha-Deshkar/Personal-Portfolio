@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Images/logo.svg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hello, I'm <span>Radhika </span><br />
+            Deshkar From India
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="Images/user.jpg" />
+          </div>
+          <div class="about-col2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              As a recent graduate with a master's degree in computer
+              applications, I'm excited to launch my career in software
+              development. During my studies, I gained hands-on experience in
+              programming languages such as C, C++, JAVA and PHP, as well as web
+              development technologies like HTML, CSS, and JavaScript. I'm a
+              fast learner with a passion for problem-solving, and I'm always
+              eager to take on new challenges. I'm seeking a role where I can
+              apply my skills and contribute to the development of innovative
+              software solutions.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>HTML || CSS || JavaScript</span><br />Designing Web/App
+                  pages
+                </li>
+                <li><span>Php || Java</span><br />Web app development</li>
+                <li><span>Sql</span><br />Database functionality</li>
+                <li>
+                  <span>Git/Github</span><br />To track projects or changes
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2024 - Current</span><br />Web Developer at ICEICO
+                  Technologies Pvt. Ltd.
+                </li>
+                <li>
+                  <span>2023 - 2024</span><br />Full Stack Development Intern at
+                  Maestro Intellect Pvt. Ltd.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2024</span><br />Master of Computer Application (MCA)
+                  from G H Raisoni University, Amravati
+                </li>
+                <li>
+                  <span>2022</span><br />Bachelor of Computer Application (BCA)
+                  from Shri Shivaji Science College, Nagpur
+                </li>
+                <li>
+                  <span>2019</span><br />HSC (Maharashtra State Board) from
+                  Prerna Junior College, Nagpur
+                </li>
+                <li>
+                  <span>2017</span><br />SSC (Maharashtra State Board) from
+                  Pandit Bachhraj Vyas Vidyalaya, Nagpur
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design/ Frontend Dev.</h2>
+            <p>
+              I craft responsive designs that fluidly adapt to diverse screen
+              sizes & resolutions.I develop high-performance websites ensuring
+              seamless cross-browser functionality.Implement advanced
+              optimization strategies to accelerate load times & boost site
+              performance.Through transparent process,I work to enhance your
+              digital footprint & deliver exceptional user experiences.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Backend Development</h2>
+            <p>
+              Create robust APIs to facilitate smooth communication across your
+              application’s components. Utilizing server-side technologies such
+              as Php/Java. I ensure efficient data processing and optimal
+              performance for your web applications. Also offer seamless
+              integration of third-party services to enhance functionality and
+              user experience, tailoring solutions to your specific
+              requirements.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h2>Web App Support and Maintenance</h2>
+            <p>
+              At Lift TGechno, I offer round-the-clock web app support and
+              maintenance for the longevity and optimal performance of your
+              website. I proactively monitor your web application and employ
+              advanced monitoring tools to track performance and potential
+              issues. I stay up-to-date with the latest security trends and
+              technologies to protect your application against the threats.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-at"></i>
+            <h2>E-commerce Web Apps Development</h2>
+            <p>
+              I create custom eCommerce solutions tailored to your business
+              goals and brand identity. My responsive web designs or the apps
+              ensure your customers or the client can browse and purchase easily
+              across all devices from anywhere. My eCommerce web apps are
+              optimized to maximize your digital reach, productivity, driving
+              traffic and conversions.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/work1.jpg" />
+            <div class="layer">
+              <h3>Game App</h3>
+              <p>
+                A gaming application is a web, mobile, or desktop application
+                that enables users to play games against each other. Gaming apps
+                may also include features for managing the game and interacting
+                with friends.
+              </p>
+              <a href="https://tictactoeegameapp.netlify.app/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work2.jpg" />
+            <div class="layer">
+              <h3>Amazon Clone</h3>
+              <p>
+                An Amazon clone is a replica of the popular e-commerce website,
+                Amazon, that aims to replicate its functionality & user
+                experience.Amazon clone projects can include features such as
+                browsing and purchasing products.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work3.jpg" />
+            <div class="layer">
+              <h3>Travel Management Application</h3>
+              <p>
+                ourism Management System is a comprehensive software designed
+                for the travel industry. It is a dynamic and responsive system
+                that addresses issues such as document management, lost records
+                due to human error, etc.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> radhikaadeshkar@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> 7720060444</p>
+            <div class="social-icons">
+              <a href="https://facebook.com"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com"
+                ><i class="fa-brands fa-twitter-square"></i
+              ></a>
+              <a href="https://instagram.com"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://linkedin.com"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="Images/My-CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright <b style="color: #ff004f"> © </b> Radhika | Web Developer |
+          All Rights Reserved.
+        </p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
